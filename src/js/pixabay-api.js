@@ -19,4 +19,4 @@ export async function getImagesByQuery(query, page = 1) {
   params.page = page;
   const { data } = await axios.get(BASE_URL, { params });
   return data;
-};
+}
